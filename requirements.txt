@@ -1,0 +1,17 @@
+# Core — required
+numpy>=1.24
+scipy>=1.10
+pandas>=1.5
+matplotlib>=3.6
+scikit-learn>=1.2        # k-means / ARI in evaluation.cluster_agreement only
+
+# Notebook
+jupyterlab>=4.0
+ipykernel>=6.0
+
+# Testing
+pytest>=7.0
+
+# Optional — independent reference implementation used only for cross-validation
+# in notebook section 10 and one test (both skip cleanly if absent)
+scikit-bio>=0.5.8

@@ -1,0 +1,365 @@
+{
+  "load_time_s": 1.5414061000337824,
+  "raw_shape": [
+    675,
+    6696
+  ],
+  "fraction_at_zero_floor": 0.9756980397362716,
+  "n_taxa_never_observed": 1023,
+  "preprocessing": {
+    "n_taxa_in": 6696,
+    "n_taxa_kept": 2385,
+    "fraction_taxa_kept": 0.35618279569892475,
+    "min_retained_mass": 0.6578947190000008,
+    "mean_retained_mass": 0.9932971532948148,
+    "unzeroed": true,
+    "renormalised": true
+  },
+  "min_prevalence": 5,
+  "braycurtis_time_s": 5.706413600011729,
+  "pcoa_time_s": 0.18705189996398985,
+  "negative_fraction": 0.11023238131569063,
+  "n_negative": 366,
+  "explained_top2": 0.28003917536880163,
+  "explained_top3": 0.37734452299288923,
+  "n_positive_axes": 308,
+  "broken_stick_axes": 20,
+  "broken_stick_explained": 0.7469438625311416,
+  "metric_comparison": [
+    {
+      "metric": "braycurtis",
+      "compute (s)": 5.669231200008653,
+      "neg. eigenvalue %": 11.023238131569062,
+      "PCo1 %": 14.426957835659572,
+      "PCo1+2 %": 28.003917536880163,
+      "stress (2 axes)": 0.5141134020931966,
+      "Donor R^2": 0.28733945888951967,
+      "Diet R^2": 0.13999474039964901
+    },
+    {
+      "metric": "jaccard",
+      "compute (s)": 0.021626200003083795,
+      "neg. eigenvalue %": 0.7780588913147957,
+      "PCo1 %": 10.077035821107264,
+      "PCo1+2 %": 16.208373699747547,
+      "stress (2 axes)": 0.6831846329666605,
+      "Donor R^2": 0.201573405381169,
+      "Diet R^2": 0.06113885232892815
+    },
+    {
+      "metric": "hellinger",
+      "compute (s)": 0.03422679996583611,
+      "neg. eigenvalue %": 0.0,
+      "PCo1 %": 15.123526082103428,
+      "PCo1+2 %": 30.05298132556373,
+      "stress (2 axes)": 0.5368186223394061,
+      "Donor R^2": 0.28502597523990575,
+      "Diet R^2": 0.12346098987013503
+    },
+    {
+      "metric": "aitchison",
+      "compute (s)": 0.03743129997747019,
+      "neg. eigenvalue %": 0.0,
+      "PCo1 %": 9.775395899654699,
+      "PCo1+2 %": 15.1856964008697,
+      "stress (2 axes)": 0.6892101011519144,
+      "Donor R^2": 0.1816767910391583,
+      "Diet R^2": 0.05003745983200711
+    },
+    {
+      "metric": "jensenshannon",
+      "compute (s)": 20.389164399995934,
+      "neg. eigenvalue %": 0.0,
+      "PCo1 %": 14.284831388476988,
+      "PCo1+2 %": 27.581651520564975,
+      "stress (2 axes)": 0.5493781780325562,
+      "Donor R^2": 0.2580249928637936,
+      "Diet R^2": 0.1201477661229881
+    },
+    {
+      "metric": "euclidean",
+      "compute (s)": 0.022182100045029074,
+      "neg. eigenvalue %": 0.0,
+      "PCo1 %": 21.82919962006536,
+      "PCo1+2 %": 39.2938617339423,
+      "stress (2 axes)": 0.510364164224343,
+      "Donor R^2": 0.21030854951962635,
+      "Diet R^2": 0.13228411254346453
+    }
+  ],
+  "corrections": [
+    {
+      "correction": "none",
+      "constant c": 0.0,
+      "time (s)": 0.1911221999907866,
+      "negative %": 11.023238131569062,
+      "PCo1+2 %": 28.003917536880163,
+      "axes for 80%": 28,
+      "Donor R^2 (2 axes)": 0.5527836343196931
+    },
+    {
+      "correction": "lingoes",
+      "constant c": 1.127750750998956,
+      "time (s)": 0.30082450003828853,
+      "negative %": 0.0,
+      "PCo1+2 %": 6.797454608377635,
+      "axes for 80%": 484,
+      "Donor R^2 (2 axes)": 0.5530013387869326
+    },
+    {
+      "correction": "cailliez",
+      "constant c": 1.0309063581007185,
+      "time (s)": 1.2507999999797903,
+      "negative %": 0.0,
+      "PCo1+2 %": 15.056201514251738,
+      "axes for 80%": 311,
+      "Donor R^2 (2 axes)": 0.49084709103043317
+    }
+  ],
+  "fidelity": [
+    {
+      "axes": 2,
+      "stress-1": 0.5141134020931966,
+      "relative Frobenius": 0.5141134020931966,
+      "RMSE": 0.39241926027202,
+      "Shepard r": 0.7629440396886361,
+      "Spearman rho": 0.7707258752500084,
+      "cumulative %": 28.003917536880163
+    },
+    {
+      "axes": 3,
+      "stress-1": 0.4146138971392691,
+      "relative Frobenius": 0.41461389713926916,
+      "RMSE": 0.3164719654291317,
+      "Shepard r": 0.7836761218084841,
+      "Spearman rho": 0.777031733958914,
+      "cumulative %": 37.734452299288925
+    },
+    {
+      "axes": 5,
+      "stress-1": 0.31580876733280966,
+      "relative Frobenius": 0.3158087673328097,
+      "RMSE": 0.24105468240972674,
+      "Shepard r": 0.8141324682839541,
+      "Spearman rho": 0.802084673222553,
+      "cumulative %": 47.61366914682797
+    },
+    {
+      "axes": 10,
+      "stress-1": 0.20021822575110437,
+      "relative Frobenius": 0.20021822575110437,
+      "RMSE": 0.15282520883978415,
+      "Shepard r": 0.8962817115837869,
+      "Spearman rho": 0.8939986219623763,
+      "cumulative %": 61.47323857544452
+    },
+    {
+      "axes": 20,
+      "stress-1": 0.10226062083554747,
+      "relative Frobenius": 0.10226062083554749,
+      "RMSE": 0.07805483580054312,
+      "Shepard r": 0.9659371646244707,
+      "Spearman rho": 0.9677713172244508,
+      "cumulative %": 74.69438625311416
+    },
+    {
+      "axes": 50,
+      "stress-1": 0.03628660202039357,
+      "relative Frobenius": 0.03628660202039358,
+      "RMSE": 0.0276973163209753,
+      "Shepard r": 0.989120659194334,
+      "Spearman rho": 0.9892267587457314,
+      "cumulative %": 87.80120231748414
+    },
+    {
+      "axes": 100,
+      "stress-1": 0.05220619474903687,
+      "relative Frobenius": 0.05220619474903687,
+      "RMSE": 0.03984863308683073,
+      "Shepard r": 0.9956939431725293,
+      "Spearman rho": 0.9942041084450556,
+      "cumulative %": 94.83372063738878
+    },
+    {
+      "axes": 200,
+      "stress-1": 0.07525375858382637,
+      "relative Frobenius": 0.07525375858382638,
+      "RMSE": 0.05744068167824391,
+      "Shepard r": 0.996848840793168,
+      "Spearman rho": 0.9951637644193548,
+      "cumulative %": 99.1102034287043
+    },
+    {
+      "axes": 300,
+      "stress-1": 0.08033865285610665,
+      "relative Frobenius": 0.08033865285610665,
+      "RMSE": 0.0613219468636396,
+      "Shepard r": 0.997083153927321,
+      "Spearman rho": 0.9954956964419959,
+      "cumulative %": 99.99628349208005
+    }
+  ],
+  "best_k_by_stress": 50,
+  "stress_2d": 0.5141134020931966,
+  "group_tests": [
+    {
+      "factor": "Donor",
+      "levels": 7,
+      "pseudo-F": 44.888776508544204,
+      "R^2": 0.28733945888951967,
+      "PERMANOVA p": 0.001,
+      "ANOSIM R": 0.49355789656862337,
+      "ANOSIM p": 0.001,
+      "silhouette": 0.07792908301891927,
+      "k-means ARI": 0.21234564477706427
+    },
+    {
+      "factor": "Diet",
+      "levels": 6,
+      "pseudo-F": 21.780443847724335,
+      "R^2": 0.13999474039964901,
+      "PERMANOVA p": 0.001,
+      "ANOSIM R": 0.30520721052450356,
+      "ANOSIM p": 0.001,
+      "silhouette": 0.08699077988853798,
+      "k-means ARI": 0.22036095951839293
+    },
+    {
+      "factor": "Source",
+      "levels": 13,
+      "pseudo-F": 5.52013848391808,
+      "R^2": 0.0909610988784255,
+      "PERMANOVA p": 0.001,
+      "ANOSIM R": 0.30979484360249987,
+      "ANOSIM p": 0.001,
+      "silhouette": -0.03089807874826464,
+      "k-means ARI": 0.05808415229561519
+    },
+    {
+      "factor": "Sex",
+      "levels": 2,
+      "pseudo-F": 13.711108973699428,
+      "R^2": 0.019966342169986002,
+      "PERMANOVA p": 0.001,
+      "ANOSIM R": -0.05958568940401463,
+      "ANOSIM p": 0.916,
+      "silhouette": -0.008916382059715136,
+      "k-means ARI": -0.000911550060851745
+    },
+    {
+      "factor": "CollectionMet",
+      "levels": 2,
+      "pseudo-F": 11.252723587343178,
+      "R^2": 0.016445274091637277,
+      "PERMANOVA p": 0.001,
+      "ANOSIM R": 0.15121949143659005,
+      "ANOSIM p": 0.002,
+      "silhouette": 0.060693690317525494,
+      "k-means ARI": 0.02189738862351132
+    }
+  ],
+  "diet_sensitivity": {
+    "n": 658,
+    "R2": 0.10290608542025959,
+    "p": 0.001,
+    "anosim_R": 0.2751962939198347
+  },
+  "scaling": [
+    {
+      "n samples": 50,
+      "distance (s)": 0.029468499997165054,
+      "PCoA (s)": 0.0004759999574162066,
+      "total (s)": 0.02994449995458126,
+      "peak memory (MB)": 0.10552,
+      "D matrix (MB)": 0.02
+    },
+    {
+      "n samples": 100,
+      "distance (s)": 0.1307090000482276,
+      "PCoA (s)": 0.0036367999855428934,
+      "total (s)": 0.1343458000337705,
+      "peak memory (MB)": 0.40672,
+      "D matrix (MB)": 0.08
+    },
+    {
+      "n samples": 200,
+      "distance (s)": 0.45708490000106394,
+      "PCoA (s)": 0.008793900022283196,
+      "total (s)": 0.46587880002334714,
+      "peak memory (MB)": 1.60912,
+      "D matrix (MB)": 0.32
+    },
+    {
+      "n samples": 350,
+      "distance (s)": 1.4088877000031061,
+      "PCoA (s)": 0.044007399992551655,
+      "total (s)": 1.4528950999956578,
+      "peak memory (MB)": 4.912752,
+      "D matrix (MB)": 0.98
+    },
+    {
+      "n samples": 500,
+      "distance (s)": 2.918925500009209,
+      "PCoA (s)": 0.08461000001989305,
+      "total (s)": 3.003535500029102,
+      "peak memory (MB)": 10.016352,
+      "D matrix (MB)": 2.0
+    },
+    {
+      "n samples": 675,
+      "distance (s)": 5.304383800015785,
+      "PCoA (s)": 0.15275849995668977,
+      "total (s)": 5.457142299972475,
+      "peak memory (MB)": 18.245552,
+      "D matrix (MB)": 3.645
+    }
+  ],
+  "solvers": [
+    {
+      "solver": "full (k=all)",
+      "time (s)": 0.15885369997704402,
+      "lambda_1": 32.33168115281374
+    },
+    {
+      "solver": "partial (k=10)",
+      "time (s)": 0.020436400023754686,
+      "lambda_1": 32.33168115281374
+    },
+    {
+      "solver": "partial (k=3)",
+      "time (s)": 0.014515999995637685,
+      "lambda_1": 32.3316811528137
+    }
+  ],
+  "apcoa": [
+    {
+      "factor": "Donor",
+      "R^2 in PCo1-2 (standard)": 0.5527836343196931,
+      "R^2 in PCo1-2 (adjusted for Donor)": 1.2028264925870748e-16
+    },
+    {
+      "factor": "Diet",
+      "R^2 in PCo1-2 (standard)": 0.23665713852257061,
+      "R^2 in PCo1-2 (adjusted for Donor)": 0.42835777306398454
+    },
+    {
+      "factor": "Source",
+      "R^2 in PCo1-2 (standard)": 0.12592121021127564,
+      "R^2 in PCo1-2 (adjusted for Donor)": 0.03712115932656869
+    },
+    {
+      "factor": "Sex",
+      "R^2 in PCo1-2 (standard)": 0.02008666907956759,
+      "R^2 in PCo1-2 (adjusted for Donor)": 0.019370099781280466
+    }
+  ],
+  "skbio_validated": true,
+  "tests_passed": true,
+  "timestamp": "2026-09-14T12:52:14.647941+00:00",
+  "versions": {
+    "python": "3.12.2",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "pcoa": "1.0.0"
+  }
+}

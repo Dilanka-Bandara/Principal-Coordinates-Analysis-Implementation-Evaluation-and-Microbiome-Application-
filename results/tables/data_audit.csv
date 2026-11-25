@@ -1,0 +1,15 @@
+property,value
+n_samples,675
+n_taxa,6696
+n_missing,0
+n_negative,0
+n_exact_zeros,0
+min_value,4.32629e-17
+max_value,0.863351878
+row_sum_min,0.9999959132604695
+row_sum_max,1.000007951975013
+is_closed_composition,True
+fraction_at_zero_floor,0.9756980397362716
+n_taxa_never_observed,1023
+median_taxon_prevalence,1.0
+max_taxon_prevalence,618
